@@ -5,7 +5,7 @@ from io import BytesIO
 import base64
 import uuid
 import urllib.parse
-
+# this is the metro application  which can also book cab right after metro  reaches the destination 
 # ---------------- 1. PAGE CONFIGURATION ----------------
 st.set_page_config(page_title="Metro Smart Book", page_icon="🎫", layout="centered")
 
@@ -230,3 +230,4 @@ elif st.session_state.step == 'ticket':
 
     if st.button("Book New Journey", variant="secondary"):
         reset_app()
+
